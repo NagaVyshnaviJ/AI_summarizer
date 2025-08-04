@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Article Summarizer</title>
+    {% load static %}
+    <script src="{% static 'articles/js/article_submit.js' %}"></script>
+</head>
+<body>
+    <h2>AI Article Summarizer</h2>
+    <textarea id="articleInput" rows="12" cols="80" placeholder="Paste your article here..."></textarea><br>
+    <button onclick="submitArticle()">Summarize</button>
+    <div id="result" style="margin-top:20px;"></div>
+</body>
+</html>
