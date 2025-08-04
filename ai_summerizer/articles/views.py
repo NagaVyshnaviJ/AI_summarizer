@@ -4,7 +4,7 @@ from django.http import JsonResponse
 import requests
 from .models import Article
 # Create your views here.
-HF_TOKEN='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'
+HF_TOKEN=''
 def home(request):
     return render(request, 'articles/home.html')
 
